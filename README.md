@@ -13,4 +13,4 @@ Lavalink Server Code(Lavalink.jar):
 https://github.com/DjStephLordPro/Lavalink/tree/main/Lavalink
 
 Lavalink Server Normal Startup Logs:
-https://github.com/DjStephLordPro/Lavalink/tree/main/logs
+https://github.com/DjStephLordPro/Lavalink/blob/main/logs/spring.log
