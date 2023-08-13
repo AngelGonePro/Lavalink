@@ -17,9 +17,10 @@ lavalink:
         frameBufferDurationMs: 5000
         gc-warnings: true
         opusEncodingQuality: 10
-        #copy and past Password into config of whatever is using Lavalink!
+        #Copy and past Password into config of whatever is using Lavalink!
         password: KshsjkKJSJdmkmskaAKDIEJN#9827347
         playerUpdateInterval: 5
+        #Change this to LOW if you don't have enough CPU or the audio isn't too great!
         resamplingQuality: HIGH
         soundcloudSearchEnabled: true
         sources:
