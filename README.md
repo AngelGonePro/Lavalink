@@ -1,8 +1,11 @@
 # Lavalink
- Public Lavalink open source code. And advanced default config!
+Public Lavalink open source code.
+
+And advanced default config!
 
 # Commit
-Misspelled repitory and respitory
+Misspelled repitory and respitory.
+
 Correct spelling is respiratory!
 
 # Info
