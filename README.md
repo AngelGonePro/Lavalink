@@ -6,7 +6,7 @@ https://github.com/DjStephLordPro/Lavalink/blob/main/application.yml
 
 Also check out(Other Extra Features Not Tested Yet[Add at your own risk]): https://github.com/DjStephLordPro/Lavalink/blob/main/Lavalink/BOOT-INF/classes/application.yml.example
 
-Lavalink Server JavaScript File:
+Lavalink Server JavaScript File(Runs the application.yml file):
 https://github.com/DjStephLordPro/Lavalink/blob/main/Lavalink.jar
 
 Lavalink Server Jar Code:
