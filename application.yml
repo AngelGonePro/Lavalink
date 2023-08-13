@@ -1,0 +1,94 @@
+lavalink:
+    plugins: null
+    pluginsDir: ./plugins
+    server:
+        bufferDurationMs: 400
+        filters:
+            channelMix: true
+            distortion: true
+            equalizer: true
+            karaoke: true
+            lowPass: true
+            rotation: true
+            timescale: true
+            tremolo: true
+            vibrato: true
+            volume: true
+        frameBufferDurationMs: 5000
+        gc-warnings: true
+        opusEncodingQuality: 10
+        #copy and past Password into config of whatever is using Lavalink!
+        password: KshsjkKJSJdmkmskaAKDIEJN#9827347
+        playerUpdateInterval: 5
+        resamplingQuality: HIGH
+        soundcloudSearchEnabled: true
+        sources:
+            bandcamp: true
+            http: true
+            local: false
+            soundcloud: true
+            twitch: true
+            vimeo: true
+            youtube: true
+        trackStuckThresholdMs: 1e+08
+        useSeekGhosting: true
+        #Just Create A New Dumby Google Account!
+        youtubeConfig:
+            email: 
+            password: 
+        youtubePlaylistLoadLimit: 6
+        youtubeSearchEnabled: true
+logging:
+    file:
+        path: ./logs/
+    level:
+        lavalink: INFO
+        root: INFO
+    logback:
+        rollingpolicy:
+            max-file-size: 1GB
+            max-history: 30
+    request:
+        enabled: true
+        includeClientInfo: true
+        includeHeaders: false
+        includePayload: true
+        includeQueryString: true
+        maxPayloadLength: 10000
+metrics:
+    prometheus:
+        enabled: true
+        endpoint: /metrics
+plugins:
+    dunctebot:
+        sources:
+            clypit: true
+            getyarn: true
+            mixcloud: true
+            ocremix: true
+            pornhub: true
+            reddit: true
+            soundgasm: true
+            tiktok: true
+            tts: true
+        ttsLanguage: en-US
+    topissourcemanagers:
+        applemusic:
+            countryCode: US
+        providers:
+            - ytmsearch:"%ISRC%"
+            - ytsearch:"%ISRC%"
+            - ytmsearch:%QUERY%
+            - ytsearch:%QUERY%
+            - scsearch:%QUERY%
+        sources:
+            applemusic: false
+            spotify: true
+        #Go too https://developer.spotify.com/documentation/web-api/concepts/apps 
+        spotify:
+            clientId: 
+            clientSecret: 
+            countryCode: US
+server:
+    address: 0.0.0.0
+    port: 
