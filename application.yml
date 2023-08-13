@@ -2,7 +2,10 @@ lavalink:
     plugins: null
     pluginsDir: ./plugins
     server:
+        # The duration of the NAS buffer. Higher values fare better against longer GC pauses.
+        # Duration <= 0 to disable JDA-NAS. Minimum of 40ms, lower values may introduce pauses.
         bufferDurationMs: 400
+        # All filters are enabled by default
         filters:
             channelMix: true
             distortion: true
@@ -14,14 +17,19 @@ lavalink:
             tremolo: true
             vibrato: true
             volume: true
+        # How many milliseconds of audio to keep buffered
         frameBufferDurationMs: 5000
         gc-warnings: true
+        # Opus encoder quality. Valid values range from 0 to 10, where 10 is best quality but is the most expensive on the CPU.
         opusEncodingQuality: 10
         #Copy and past Password into config of whatever is using Lavalink!
         password: KshsjkKJSJdmkmskaAKDIEJN#9827347
+        # How frequently to send player updates to clients, in seconds
         playerUpdateInterval: 5
-        #Change this to LOW if you don't have enough CPU or the audio isn't too great!
-        resamplingQuality: HIGH
+        # Quality of resampling operations. Valid values are LOW, MEDIUM and HIGH, where HIGH uses the most CPU.
+        # Change this if your Audio or CPU is bad.
+        resamplingQuality: MEDIUM
+        # Search With Soundcloud :D
         soundcloudSearchEnabled: true
         sources:
             bandcamp: true
@@ -31,13 +39,19 @@ lavalink:
             twitch: true
             vimeo: true
             youtube: true
+        # The threshold for how long a track can be stuck. A track is stuck if does not return any audio data.
         trackStuckThresholdMs: 1e+08
+        # Seek ghosting is the effect where whilst a seek is in progress,
+        # the audio buffer is read from until empty, or until seek is ready.
         useSeekGhosting: true
-        #Just Create A New Dumby Google Account!
+        # Just Create A New Dumby Google Account!
+        # https://accounts.google.com/
         youtubeConfig:
             email: 
             password: 
+        # Number of pages at 100 each
         youtubePlaylistLoadLimit: 6
+        # Search with YouTube :D
         youtubeSearchEnabled: true
 logging:
     file:
@@ -85,7 +99,7 @@ plugins:
         sources:
             applemusic: false
             spotify: true
-        #Go too https://developer.spotify.com/documentation/web-api/concepts/apps 
+        # Go too https://developer.spotify.com/documentation/web-api/concepts/apps 
         spotify:
             clientId: 
             clientSecret: 
