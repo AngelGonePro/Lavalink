@@ -1,0 +1,40 @@
+2023-08-12 23:53:07.643  INFO 10332 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 17.0.7 on Asus-Beast-LapT with PID 10332 (C:\Users\Steph\Documents\GitHub\Lavalink\Lavalink.jar started by Steph in C:\Users\Steph\Documents\GitHub\Lavalink)
+2023-08-12 23:53:07.651  INFO 10332 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-08-12 23:53:08.248  INFO 10332 --- [main] lavalink.server.Launcher                 : Started Launcher in 0.997 seconds (JVM running for 1.498)
+2023-08-12 23:53:08.251  INFO 10332 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2023-08-12 23:53:08.291  INFO 10332 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.7.8
+	Build time:     03.08.2023 15:46:57 UTC
+	Branch          HEAD
+	Commit:         439f122
+	Commit time:    03.08.2023 15:32:39 UTC
+	JVM:            17.0.7
+	Lavaplayer      1.5.0
+
+2023-08-12 23:53:08.296  INFO 10332 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-08-12 23:53:09.063  WARN 10332 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-12 23:53:09.077  INFO 10332 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-08-12 23:53:09.077  INFO 10332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 777 ms
+2023-08-12 23:53:09.171  INFO 10332 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2023-08-12 23:53:09.236  INFO 10332 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-08-12 23:53:09.408  INFO 10332 --- [main] l.s.config.AudioPlayerConfiguration      : Email and password fields are blank, some age restricted videos will throw exceptions
+2023-08-12 23:53:09.892  INFO 10332 --- [main] lavalink.server.config.KoeConfiguration  : OS: WINDOWS, Arch: X86_64
+2023-08-12 23:53:09.892  INFO 10332 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2023-08-12 23:53:09.894  INFO 10332 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-08-12 23:53:09.904  INFO 10332 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-08-12 23:53:09.935  WARN 10332 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-08-12 23:53:10.109  INFO 10332 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2023-08-12 23:53:10.122  INFO 10332 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2023-08-12 23:53:10.130  INFO 10332 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2023-08-12 23:53:10.183  INFO 10332 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-08-12 23:53:10.217  INFO 10332 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http)
+2023-08-12 23:53:10.221  INFO 10332 --- [main] lavalink.server.Launcher                 : Started Launcher in 1.966 seconds (JVM running for 3.471)
+2023-08-12 23:53:10.222  INFO 10332 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
