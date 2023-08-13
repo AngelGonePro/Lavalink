@@ -9,7 +9,7 @@ Also check out(Other Extra Features Not Tested Yet[Add at your own risk]): https
 Lavalink Server JavaScript File(Runs the application.yml file):
 https://github.com/DjStephLordPro/Lavalink/blob/main/Lavalink.jar
 
-Lavalink Server Jar Code:
+Lavalink Server Code(Lavalink.jar):
 https://github.com/DjStephLordPro/Lavalink/tree/main/Lavalink
 
 Lavalink Server Normal Startup Logs:
