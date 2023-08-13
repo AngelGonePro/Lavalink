@@ -9,7 +9,7 @@ Misspelled repitory and respitory.
 Correct spelling is respiratory!
 
 # Info
-Current Working file(updates soon to come with more working features):
+Current Working file(may update more with more working features):
 https://github.com/DjStephLordPro/Lavalink/blob/main/application.yml
 
 Also check out(Other Extra Features Not Tested Yet[Add at your own risk]): https://github.com/DjStephLordPro/Lavalink/blob/main/Lavalink/BOOT-INF/classes/application.yml.example
