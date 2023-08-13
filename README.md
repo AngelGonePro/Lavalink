@@ -1,6 +1,11 @@
 # Lavalink
  Public Lavalink open source code. And advanced default config!
 
+# Commit
+Misspelled repitory and respitory
+Correct spelling is respiratory!
+
+# Info
 Current Working file(updates soon to come with more working features):
 https://github.com/DjStephLordPro/Lavalink/blob/main/application.yml
 
