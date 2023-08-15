@@ -44,7 +44,7 @@ lavalink:
         # Seek ghosting is the effect where whilst a seek is in progress,
         # the audio buffer is read from until empty, or until seek is ready.
         useSeekGhosting: true
-        # Required for avoiding all age restrictions by YouTube
+        # Required for avoiding all age restrictions by YouTube,
         # some restricted videos still can be played without.
         # Just Create A New Dumby Google Account!
         # https://accounts.google.com/
