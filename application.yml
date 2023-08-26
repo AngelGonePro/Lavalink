@@ -28,7 +28,7 @@ lavalink:
         # How frequently to send player updates to clients, in seconds
         playerUpdateInterval: 5
         # Quality of resampling operations. Valid values are LOW, MEDIUM and HIGH, where HIGH uses the most CPU.
-        # Change this if your Audio or CPU is badgetting bottle-necked.
+        # Change this if your Audio or CPU is getting bottle-necked.
         resamplingQuality: MEDIUM
         # Search With Soundcloud :D
         soundcloudSearchEnabled: true
