@@ -47,7 +47,7 @@ lavalink:
         useSeekGhosting: true
         # Required for avoiding all age restrictions by YouTube,
         # some restricted videos still can be played without.
-        # Just Create A New Dumby Google Account!
+        # Just Create A New Dummy Google Account!
         # https://accounts.google.com/
         youtubeConfig:
             email: 
